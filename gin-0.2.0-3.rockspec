@@ -1,21 +1,29 @@
-package = "gin"
-version = "0.2.0-1"
+-- This file was automatically generated for the LuaDist project.
 
+package = "gin"
+version = "0.2.0-3"
+
+-- LuaDist source
 source = {
-    url = "git://github.com/ostinelli/gin.git"
+  tag = "0.2.0-3",
+  url = "git://github.com/LuaDist-testing/gin.git"
 }
+-- Original source
+-- source = {
+--     url = "git://github.com/paragasu/gin.git"
+-- }
 
 description = {
     summary = "A fast, low-latency, low-memory footprint, web JSON-API framework with Test Driven Development helpers and patterns.",
     homepage = "http://gin.io",
-    maintainer = "Roberto Ostinelli <roberto@ostinelli.net>",
+    maintainer = "Jeffry L. <paragasu@gmail.com>",
     license = "MIT"
 }
 
 dependencies = {
     "lua = 5.1",
     "ansicolors = 1.0.2-3",
-    "busted = 2.0.rc10-0",
+    "busted = 2.0.rc12-1",
     "lua-cjson = 2.1.0-1",
     "luasocket = 3.0rc1-2",
     "luafilesystem = 1.6.3-1",
